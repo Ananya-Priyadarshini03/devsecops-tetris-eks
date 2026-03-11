@@ -1,1 +1,22 @@
 
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tetris-deployment
+  labels:
+    app: tetris
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: tetris
+  template:
+    metadata:
+      labels:
+        app: tetris
+    spec:
+      containers:
+      - name: tetris-container
+        image: Ananya-Priyadarshini03/tetris:latest
+        ports:
+        - containerPort: 80
