@@ -13,7 +13,7 @@ The application used for deployment is a **Tetris web application**, which is co
 
 # 🏗 Architecture Diagram
 
-![Architecture](images/architecture.png)
+![Architecture](images/architecture(1).png)
 
 ---
 
