@@ -20,16 +20,27 @@ The application used for deployment is a **Tetris web application**, which is co
 # 🔁 CI/CD Pipeline Workflow
 
 1.Developer pushes code to GitHub
+
 2.Jenkins pipeline starts
+
 3.SonarQube performs code analysis
+
 4.Dependencies installed using NPM
+
 5.OWASP dependency scanning
+
 6.Trivy file scan
+
 7.Docker image build
+
 8.Docker image pushed to DockerHub
+
 9.Image scanned with Trivy
+
 10.Jenkins updates Kubernetes manifest
+
 11.ArgoCD detects change
+
 12.Application deployed automatically to EKS
 
 ---
