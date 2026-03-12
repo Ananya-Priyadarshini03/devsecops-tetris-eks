@@ -13,7 +13,7 @@ The application used for deployment is a **Tetris web application**, which is co
 
 # 🏗 Architecture Diagram
 
-![Architecture](images/architecture(1).gif)
+![Architecture Diagram](devsecops-tetris-eks/images/architecture.gif)
 
 ---
 
@@ -64,4 +64,3 @@ The application used for deployment is a **Tetris web application**, which is co
 
 ---
 
-# 📂 Project Structure
