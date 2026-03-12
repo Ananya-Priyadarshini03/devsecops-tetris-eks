@@ -11,9 +11,12 @@ The application used for deployment is a **Tetris web application**, which is co
 
 ---
 
-# 🏗 Architecture Diagram
 
-![Architecture Diagram](devsecops-tetris-eks/images/architecture.gif)
+## 🏗 Architecture Diagram
+
+<p align="center">
+  <img src="images/architecture.gif"/>
+</p>
 
 ---
 
